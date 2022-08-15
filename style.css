@@ -21,11 +21,36 @@ h1.stb{
 
 
 img.cartoon{
-	width:25vw;
-	height:50vw;
+	width:22vw;
+	height:45vw;
 	text-align:center;
         display: block;
         margin-left: auto;
         margin-right: auto;
 
 }       
+
+
+@media screen and (max-width: 980px){
+
+h1.sta{
+	color:Black;
+	text-align:center;
+	font-size:4vw;
+	margin-top:0px;
+	margin-bottom:00px;
+}
+
+h1.stb{
+	color:Black;
+	text-align:center;
+	font-size:6vw;
+	margin-top:0px;
+	margin-bottom:10px;
+}
+
+img.cartoon{
+	width:80vw;
+	height:160vw;
+}
+}
